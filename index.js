@@ -40,5 +40,6 @@ let routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog
 let newArr = [];
 
 function exerciseDog(){
-  newArr = routine.push
+  newArr = routine.push();
+  return newArr;
 }

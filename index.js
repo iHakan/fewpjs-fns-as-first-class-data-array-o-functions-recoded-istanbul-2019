@@ -31,7 +31,6 @@ return (`Walk home with ${dogName} the ${dogBreed}`);
 }
 
 function unleashDog(dogName,dogBreed){
-  dogName = 'Lauren';
-  dogBreed = "Golden Retriever";
+  
 console.log(`Unleash ${dogName} the ${dogBreed}`);
 }

@@ -2,8 +2,8 @@
 
 function wakeDog(dogName, dogBreed){
 
-console.log(`Wake ${dogName} the ${breed}`);
-return (`Wake ${dogName} the ${breed}`);
+console.log(`Wake ${dogName} the ${dogBreedbreed`});
+return (`Wake ${dogName} the ${dogBreed}`);
 }
 
 function leashDog(dogName, dogBreed){

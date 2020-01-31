@@ -7,9 +7,9 @@ return (`Wake ${dogName} the ${dogBreed}`);
 }
 
 function leashDog(dogName, dogBreed){
-  dogName='Boo Radley';
-  dogBreed = 'Pibble';
+  
 console.log(`Leash ${dogName} the ${dogBreed}`);
+return (`Leash ${dogName} the ${dogBreed}`);
 }
 
 function walkToPark(dogName, dogBreed){

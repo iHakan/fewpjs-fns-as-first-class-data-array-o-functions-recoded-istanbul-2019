@@ -1,9 +1,8 @@
 
 
-function wakeDog(a,b){
-  const a = 'Xerox';
-  const b = 'Border Collie';
-console.log(`Wake ${a} the ${b}`);
+function wakeDog(dogName, dogBreed){
+
+console.log(`Wake ${dogName} the ${breed}`);
 }
 
 function leashDog(dogName, dogBreed){

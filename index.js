@@ -25,8 +25,7 @@ return (`Throw the frisbee for ${dogName} the ${dogBreed}`);
 }
 
 function walkHome(dogName, dogBreed){
-  dogName = 'Santa Paws';
-  dogBreed = 'Husky';
+  
 console.log(`Walk home with ${dogName} the ${dogBreed}`);
 }
 

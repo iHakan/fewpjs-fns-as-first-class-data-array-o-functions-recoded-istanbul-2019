@@ -39,8 +39,8 @@ return (`Unleash ${dogName} the ${dogBreed}`);
 let routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog];
 let newArr = [];
 
-function exerciseDog(){
-  for(let i = 0; i<routine.length, i++){
+function exerciseDog(dogName, dogBreed){
+  for(let i = 0; i<routine.length; i++){
     newArr = routine.push();
     
   }

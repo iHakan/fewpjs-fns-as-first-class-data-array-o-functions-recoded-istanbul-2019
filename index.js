@@ -40,8 +40,10 @@ let routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog
 let newArr = [];
 
 function exerciseDog(dogName, dogBreed){
+  
   for(let i = 0; i<routine.length; i++){
-    newArr = routine.push();
+    
+    newArr.push(routine[i](dogName, dogBreed));
     
   }
   

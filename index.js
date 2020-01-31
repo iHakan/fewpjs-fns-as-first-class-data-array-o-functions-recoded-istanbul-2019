@@ -13,8 +13,7 @@ return (`Leash ${dogName} the ${dogBreed}`);
 }
 
 function walkToPark(dogName, dogBreed){
-  dogName ='Bunny';
-  dogBreed='Labrador';
+  
 console.log(`Walk to the park with ${dogName} the ${dogBreed}`);
 }
 
